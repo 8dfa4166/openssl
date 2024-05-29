@@ -1,0 +1,1 @@
+openssl ca -in ../user/user_proof.csr -policy policy_anything -extfile san.txt -out ./user_proof.crt -config openssl.cnf
